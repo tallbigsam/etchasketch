@@ -1,0 +1,25 @@
+.holder {
+    margin: auto;
+    width: 50%;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    height: 410px;
+    width: 410px;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.square {
+    background: tomato;
+    width: 25px;  /* Or whatever */
+    height: 25px; /* Or whatever */
+    flex: none;
+}
+
+.entered {
+    background: green;
+}
